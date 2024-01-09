@@ -11,7 +11,7 @@ curl_setopt_array($curl, array(
 		CURLOPT_FOLLOWLOCATION => true,
 		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		CURLOPT_CUSTOMREQUEST => 'POST',
-		CURLOPT_POSTFIELDS => array('userName' => 'cd7702c6c60795c68f2bd594a5600e1a','password' => 'ab638c18b5e9d598fd709deee92a2a54'),
+		CURLOPT_POSTFIELDS => array('userName' => 'alwebuser','password' => 'acid_qa'),
 ));
 
 $response = curl_exec($curl);
